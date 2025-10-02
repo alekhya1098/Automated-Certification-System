@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bharath.studentaccreditation" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Select" >
+        </activity>
+        <activity android:name=".AdminLogin" >
+        </activity>
+        <activity android:name=".StudentLogin" >
+        </activity>
+        <activity android:name=".AdminHome" >
+        </activity>
+        <activity android:name=".AdminView" >
+        </activity>
+        <activity android:name=".AdminStudent" >
+        </activity>
+        <activity android:name=".AdminBonafide" >
+        </activity>
+        <activity android:name=".AdminMemo" >
+        </activity>
+        <activity android:name=".AdminBusPass" >
+        </activity>
+        <activity android:name=".AdminIdCard" >
+        </activity>
+        <activity android:name=".ViewStudent" >
+        </activity>
+        <activity android:name=".ApprovedStudent" >
+        </activity>
+        <activity android:name=".ViewBonafide" >
+        </activity>
+        <activity android:name=".ApprovedBonafide" >
+        </activity>
+        <activity android:name=".ViewMemo" >
+        </activity>
+        <activity android:name=".ApprovedMemo" >
+        </activity>
+        <activity android:name=".ViewBusPass" >
+        </activity>
+        <activity android:name=".ApprovedBusPass" >
+        </activity>
+        <activity android:name=".ViewIdCard" >
+        </activity>
+        <activity android:name=".ApprovedIdCard" >
+        </activity>
+        <activity android:name=".StudentReg" >
+        </activity>
+        <activity android:name=".StudentHome" >
+        </activity>
+        <activity android:name=".StudentApply" >
+        </activity>
+        <activity android:name=".StudentStatus" >
+        </activity>
+        <activity android:name=".StudentYes" >
+        </activity>
+        <activity android:name=".BonafideYes" >
+        </activity>
+        <activity android:name=".BusPassYes" >
+        </activity>
+        <activity android:name=".MemoYes" >
+        </activity>
+        <activity android:name=".IdCardYes" >
+        </activity>
+    </application>
+
+</manifest>

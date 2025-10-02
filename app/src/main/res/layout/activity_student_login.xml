@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/Jasper"
+    tools:context="com.example.bharath.studentaccreditation.StudentLogin">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/sareg"
+        android:id="@+id/reg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Login"
+                android:layout_marginTop="15dp"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sid"
+                android:hint="ID Number"
+                android:padding="25dp"
+                android:textSize="20sp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/pwd"
+                android:hint="Password"
+                android:padding="25dp"
+                android:textSize="20sp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/branch"
+                android:background="@color/white"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:id="@+id/login"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/salog"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

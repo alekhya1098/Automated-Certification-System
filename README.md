@@ -1,4 +1,12 @@
-# Automated Certification System
+# 🚀 Automated Certification System
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Status](https://img.shields.io/badge/Project%20Type-Academic-blue?style=for-the-badge)
+
+
+---
 
 An Android-based application developed to automate the college certificate issuing process.  
 This system allows students to apply for certificates online and enables administrators to approve or reject requests efficiently, reducing manual effort and improving transparency.
@@ -79,10 +87,17 @@ The project includes various UML diagrams for design and analysis:
 - **Sequence Diagram** – Depicts message flow between objects.  
 - **Activity Diagram** – Visualizes workflow for login, apply, and approval actions.
 
-(See pages 22–25 in the project report for diagram visuals.)
 
 ---
+| Description             | Screenshot                                                |
+| ----------------------- | --------------------------------------------------------- |
+| **Main Screen**         | ![Main Screen](screenshots/main.png)                      |
+| **Admin Login**         | ![Admin Login](screenshots/admin_login.png)               |
+| **Student Login**       | ![Student Login](screenshots/student_login.png)           |
+| **Certificate Request** | ![Certificate Request](screenshots/apply_certificate.png) |
+| **Admin Approval**      | ![Admin Approval](screenshots/admin_approval.png)         |
 
+---
 ## 🧪 Testing
 
 - Unit testing for individual modules (Admin, Student).  
@@ -108,33 +123,4 @@ It minimizes human intervention, reduces errors, and saves time for both student
 
 ---
 
-## 📚 References
-
-1. [Android Developer Documentation](https://developer.android.com)
-2. [TutorialsPoint - Android](https://www.tutorialspoint.com/android)
-3. [JavaPoint - Android Programming](https://www.javatpoint.com/android-tutorial)
-4. John Horton, *Android Programming for Beginners*
-5. R. Nageshwar Rao, *Core Java – An Integrated Approach*
-
----
-
-## 👩‍💻 Authors
-
-- **Gujja Nithisha**
-- **Dawath Alekya**
-- **Mekala Shailaja**
-- **Adunithula Chandana Reddy**
-
-**Under the Guidance of:** Mrs. Y. Shirisha, Assistant Professor  
-**Department of CSE, Bharat Institute of Engineering and Technology (BIET), Hyderabad**
-
----
-
-## 🏫 Affiliation
-
-*This project was submitted to Jawaharlal Nehru Technological University Hyderabad (JNTUH)  
-in partial fulfillment of the requirements for the Bachelor of Technology (B.Tech) degree in  
-Computer Science and Engineering.*
-
----
 

@@ -75,27 +75,7 @@ The **Automated Certification System** replaces this manual process with an onli
 - **Java** – Core language for Android application logic.  
 - **SQLite** – Lightweight embedded database for local data storage.  
 - **XML** – UI layout design.  
-- **Android SDK** – Development and testing framework.
-
----
-
-## 📋 UML Diagrams
-
-The project includes various UML diagrams for design and analysis:
-- **Use Case Diagram** – Shows system interactions between Admin and Student.  
-- **Class Diagram** – Represents system structure and relationships.  
-- **Sequence Diagram** – Depicts message flow between objects.  
-- **Activity Diagram** – Visualizes workflow for login, apply, and approval actions.
-
-
----
-| Description             | Screenshot                                                |
-| ----------------------- | --------------------------------------------------------- |
-| **Main Screen**         | ![Main Screen](screenshots/main.png)                      |
-| **Admin Login**         | ![Admin Login](screenshots/admin_login.png)               |
-| **Student Login**       | ![Student Login](screenshots/student_login.png)           |
-| **Certificate Request** | ![Certificate Request](screenshots/apply_certificate.png) |
-| **Admin Approval**      | ![Admin Approval](screenshots/admin_approval.png)         |
+- **Android SDK** – Development and testing framework.         
 
 ---
 ## 🧪 Testing
